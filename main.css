@@ -1,0 +1,99 @@
+body {
+    display: block;    
+    padding: 15%;    
+    border: 3px solid rgb(219, 33, 33);
+    background-image: url(https://bit.ly/3SRbgx4);
+    background-size:cover;
+    padding-top: 0%;
+    
+    
+  
+}
+
+#app{
+    font-size: 25px;
+    max-height: 45vh;
+    max-width: 100%;
+    overflow: scroll;
+    background-color: rgb(209, 117, 26);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: "Spooky Pixels", sans-serif;
+    font-size: 35px;
+    color: rgb(0, 0, 0);  
+    
+       
+}
+
+.searchbar input{ 
+   
+    font-family: "Spooky Pixels", sans-serif;
+    font-size: 35px;    
+    background-color: rgba(228, 77, 22, 0.8);  
+    
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    padding: 1ch;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(236, 129, 53);
+}
+
+#nav{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: "Spooky Pixels", sans-serif;
+    color:black
+}
+
+span{
+    color: rgb(4, 4, 4);
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+#navlist{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Spooky Pixels";
+    font-size: 1.2vw;
+}
+
+a:hover{
+    color: rgb(243, 41, 5);
+    transition: 0.5s;
+
+}
+
+.hidden{
+    display: none;
+}
+
+input{
+
+}
